@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Navbar from './component/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <h1>Hello World</h1>
+  <div>
+  <h1>Right Destination</h1>
+  <Navbar/>
+  </div>
+  
 );
 
